@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d9b5ed1-4683-437b-a75c-845e922a1a8d" name="默认的" comment="tiny change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vdf2json.go" beforeDir="false" afterPath="$PROJECT_DIR$/vdf2json/vdf2json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdf2json/vdf2json.go" beforeDir="false" afterPath="$PROJECT_DIR$/vdf2json.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Purp1e\go\src\github.com\Purple-CSGO\vdf2json-go" />
       <recent name="C:\Users\Purp1e\go\src\github.com\Purple-CSGO\vdf2json-go\vdf2json" />
     </key>
   </component>
@@ -74,9 +75,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="817" y="412" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599311870345" />
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1599312636990">
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1599313277142">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599312636990" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599313277142" />
   </component>
 </project>
