@@ -7,3 +7,7 @@ func Vdf2json(vdfData string) string {
 	fmt.Println("Hello World!")
 	return ""
 }
+
+func ToJson(vdfData string) string {
+	return vdfData
+}
