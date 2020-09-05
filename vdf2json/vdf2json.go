@@ -1,4 +1,4 @@
-package vdf2json_go
+package vdf2json
 
 import "fmt"
 
