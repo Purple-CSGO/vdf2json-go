@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d9b5ed1-4683-437b-a75c-845e922a1a8d" name="默认的" comment="fix bug">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7d9b5ed1-4683-437b-a75c-845e922a1a8d" name="默认的" comment="test 1">
       <change beforePath="$PROJECT_DIR$/vdf2json.go" beforeDir="false" afterPath="$PROJECT_DIR$/vdf2json.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,8 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="tiny change" />
     <MESSAGE value="fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
+    <MESSAGE value="test 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 1" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -80,9 +80,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="500" y="243" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599314064397" />
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1599314074063">
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1599314281827">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599314074063" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599314281827" />
   </component>
 </project>
