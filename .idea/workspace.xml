@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d9b5ed1-4683-437b-a75c-845e922a1a8d" name="默认的" comment="0.0.2">
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vdf2json/vdf2json.go" afterDir="false" />
+    <list default="true" id="7d9b5ed1-4683-437b-a75c-845e922a1a8d" name="默认的" comment="0.0.4 bug fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vdf2json/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vdf2json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdf2json.go" beforeDir="false" afterPath="$PROJECT_DIR$/vdf2json.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +50,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Purp1e\go\src\github.com\Purple-CSGO\vdf2json-go\vdf2json" />
       <recent name="C:\Users\Purp1e\go\src\github.com\Purple-CSGO\vdf2json-go" />
+      <recent name="C:\Users\Purp1e\go\src\github.com\Purple-CSGO\vdf2json-go\vdf2json" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,7 +66,9 @@
     <MESSAGE value="test 1" />
     <MESSAGE value="test 2" />
     <MESSAGE value="0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.2" />
+    <MESSAGE value="0.0.3 maybe there's a bug. wait for tests" />
+    <MESSAGE value="0.0.4 bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.4 bug fix" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -87,10 +86,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="500" y="243" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599314064397" />
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1599319790778">
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1599325704962">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599319790778" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599325704962" />
     <state x="725" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599324912349">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -1,4 +1,4 @@
-package main
+package vdf2json
 
 import (
 	"bytes"
