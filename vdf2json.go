@@ -12,11 +12,13 @@ func ToJson(vdfData string) string {
 	// - trim每行左边的 \t 和每行右边的换行符 \r 和 \n
 	// - 遍历 如果有 },} → }}
 	// - 删除开头的 ": " 和结尾的 ","
+	//TODO: 修改成矩阵[{},{},{}]的格式
 	linebreak, jsonData := "", ""
 	switch runtime.GOOS {
 	case "darwin":
 		linebreak = "\r"
 	case "windows":
+		linebreak = "\n"
 	case "linux":
 		linebreak = "\n"
 	default:
@@ -26,6 +28,7 @@ func ToJson(vdfData string) string {
 	vdfData = vdfData[startpoint:]
 	lines := strings.Split(vdfData, linebreak)
 	for _, line := range lines {
+		//fmt.Println("Old Line: " + line)
 		line = strings.TrimRight(line, "\r")
 		if strings.Contains(line, "\"\t\t\"") {
 			line = strings.Replace(line, "\"\t\t\"", "\": \"", -1)
@@ -35,6 +38,7 @@ func ToJson(vdfData string) string {
 		line = strings.Replace(line, "\t", "", -1)
 		line = strings.Replace(line, "}", "},", -1)
 		jsonData += line
+		//fmt.Println("New Line: " + line)
 	}
 	jsonData = strings.Replace(jsonData, ",}", "}", -1)
 	jsonData = strings.TrimLeft(jsonData, ": ")

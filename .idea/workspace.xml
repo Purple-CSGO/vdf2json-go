@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d9b5ed1-4683-437b-a75c-845e922a1a8d" name="默认的" comment="0.0.5 bug fix">
+    <list default="true" id="7d9b5ed1-4683-437b-a75c-845e922a1a8d" name="默认的" comment="0.0.6 tiny change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vdf2json.go" beforeDir="false" afterPath="$PROJECT_DIR$/vdf2json.go" afterDir="false" />
     </list>
@@ -68,7 +68,8 @@
     <MESSAGE value="0.0.3 maybe there's a bug. wait for tests" />
     <MESSAGE value="0.0.4 bug fix" />
     <MESSAGE value="0.0.5 bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.5 bug fix" />
+    <MESSAGE value="0.0.6 tiny change" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.6 tiny change" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -86,10 +87,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="500" y="243" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599314064397" />
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1599325898616">
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1599354905993">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599325898616" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599354905993" />
     <state x="725" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599324912349">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
