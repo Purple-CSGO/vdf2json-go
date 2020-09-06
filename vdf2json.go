@@ -1,13 +1,11 @@
 package vdf2json
 
 import (
-	"bytes"
-	"encoding/json"
 	"runtime"
 	"strings"
 )
 
-func ToJson(vdfData string) (string, error) {
+func ToJson(vdfData string) string {
 	// - 删除最开始的"xxx"
 	// - 按行遍历 如果有 \"\t\t\" -> \": \" 同时在结尾加上,
 	// - 按行遍历 如果有 { → : { ... 如果有 } → },
@@ -41,11 +39,5 @@ func ToJson(vdfData string) (string, error) {
 	jsonData = strings.Replace(jsonData, ",}", "}", -1)
 	jsonData = strings.TrimLeft(jsonData, ": ")
 	jsonData = strings.TrimRight(jsonData, ",")
-	//	fmt.Println(jsonData)
-	var str bytes.Buffer
-	err := json.Indent(&str, []byte(jsonData), "", "    ")
-	if err != nil {
-		return "", err
-	}
-	return str.String(), nil
+	return jsonData
 }
