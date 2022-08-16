@@ -33,6 +33,9 @@ func ToJson(vdfData string) string {
 		if strings.Contains(line, "\"\t\t\"") {
 			line = strings.Replace(line, "\"\t\t\"", "\": \"", -1)
 			line += ","
+		} else if strings.Contains(line, "\" \"") {
+			line = strings.Replace(line, "\" \"", "\": \"", -1)
+			line += ","
 		}
 		line = strings.Replace(line, "{", ": {", -1)
 		line = strings.Replace(line, "\t", "", -1)
